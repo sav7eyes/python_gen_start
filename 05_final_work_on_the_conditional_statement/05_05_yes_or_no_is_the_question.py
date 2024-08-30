@@ -1,6 +1,6 @@
 num = int(input())
 
-if 1000 <= num <= 9999 and (num % 7 == 0 or num % 17 == 0):
+if num % 2 != 0 or 6 <= num <= 20:
     print('YES')
 else:
     print('NO')
